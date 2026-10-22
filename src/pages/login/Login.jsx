@@ -94,7 +94,7 @@ const Login = () => {
                 <span className="fs-sm text-muted">Local demo session with no backend required.</span>
                 <div className="d-flex gap-2">
                   <Button color="default" size="sm" tag={Link} to="/register">
-                    Create account
+                    Create button
                   </Button>
                   <Button color="success" size="sm" type="submit">
                     {status === 'loading' ? 'Loading...' : 'Login'}
